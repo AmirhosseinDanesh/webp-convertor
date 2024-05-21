@@ -22,7 +22,7 @@ function App() {
 
       // ارسال عکس به سمت سرور
       const response = await axios.post(
-        "https://yz-img-backend.liara.run/convert",
+        "http://localhost:3000/",
         formData,
         {
           responseType: "arraybuffer",

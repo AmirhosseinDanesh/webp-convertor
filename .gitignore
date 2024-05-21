@@ -2,7 +2,11 @@
 
 # dependencies
 /front/node_modules
+/front/liara.json
+
 /back/node_modules
+/back/liara.json
+
 /.pnp
 .pnp.js
 .yarn/install-state.gz
